@@ -1,1 +1,1 @@
-sudo cp -r /var/lib/jenkins/workspace/1337Library /var/www/html
+sh "sudo cp -r /var/lib/jenkins/workspace/1337Library /var/www/html"

@@ -1,0 +1,32 @@
+body{
+    background: darkBlue;
+    color: white;
+}
+
+button{
+    background: black;
+    size: 100px;
+    height: 25px; 
+    width: 100px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#pageTitle{
+    text-align: center;
+    font-size: 100px;
+}
+
+input{
+    height: 40px;
+}

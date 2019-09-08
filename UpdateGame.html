@@ -7,13 +7,19 @@
 <body>
 
     <h1 id="pageTitle">
-        Add Game to Library
+        Update Game Information
     </h1>
 
     <form onsubmit="return handleFormSubmit(this)">
         <div class="row">
             <div class="column" style="text-align: right">
                 <h1>Game Name</h1>
+            </div>
+            <div class="column">
+                <h1>The games name</h1>
+            </div>
+            <div class="column" style="text-align: right">
+                <h1>New Game Name</h1>
             </div>
             <div class="column">
                 <input>
@@ -25,6 +31,12 @@
                 <h1>Publisher</h1>
             </div>
             <div class="column">
+                <h1>The publisher</h1>
+            </div>
+            <div class="column" style="text-align: right">
+                <h1>New Publisher</h1>
+            </div>
+            <div class="column">
                 <input>
             </div>
         </div>
@@ -32,6 +44,12 @@
         <div class="row">
             <div class="column" style="text-align: right">
                 <h1>Platform</h1>
+            </div>
+            <div class="column">
+                <h1>The platform</h1>
+            </div>
+            <div class="column" style="text-align: right">
+                <h1>New Platform</h1>
             </div>
             <div class="column">
                 <input>
@@ -43,6 +61,12 @@
                 <h1>Year of Release</h1>
             </div>
             <div class="column">
+                <h1>The year of release</h1>
+            </div>
+            <div class="column" style="text-align: right">
+                <h1>New Year of Release</h1>
+            </div>
+            <div class="column">
                 <input>
             </div>
         </div>
@@ -55,7 +79,13 @@
 
         <div class="row">
             <div class="column" style="text-align: right">
-                <h3> Add game to library </h3>
+                <h3> </h3>
+            </div>
+            <div class="column">
+                <h3> </h3>
+            </div>
+            <div class="column" style="text-align: right">
+                <h3> Update Info </h3>
             </div>
             <div class="column">
                 <button type="submit"> Submit </button>
@@ -63,10 +93,7 @@
         </div>
     </form>
 
-    <button onclick="gameMenu()" style="color: white"> Game Menu </button>
-
-    <script src="AddGame.js"></script>
-
+    <button onclick="displayGames()" style="color: white"> Previous Page </button>
 </body>
 
 </html>

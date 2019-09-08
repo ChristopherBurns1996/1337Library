@@ -1,3 +1,3 @@
-function displayGames() {
+function displayPublishers() {
     location.href = 'DisplayPublishers.html';
 }

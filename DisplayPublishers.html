@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <h1 id="pageTitle">
+        Displaying All Publishers
+    </h1>
+
+    <table style="width:100%" border="1">
+        <tr>
+            <th>Publisher ID</th>
+            <th>Publisher Name</th>
+            <th>Current CEO</th>
+            <th>Year Establisher</th>
+            <th>Update Info</button></th>
+            <th>Delete Publisher</button></th>
+        </tr>
+        <tr>
+            <td>publisherID</td>
+            <td>publisherName</td>
+            <td>currentCEO</td>
+            <td>year established</td>
+            <td><button onclick="updatePublisher()"></button></td>
+            <td><button onclick="deletePublisher()"></button></td>
+        </tr>
+    </table>
+
+    <button onclick="publisherMenu()" style="color: white"> Publisher Menu </button>
+
+    <script src="DisplayPublishers.js"></script>
+
+</body>
+
+</html>

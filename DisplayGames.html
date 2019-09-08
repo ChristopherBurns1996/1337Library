@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <h1 id="pageTitle">
+        Displaying All Games
+    </h1>
+
+    <table style="width:100%" border="1">
+        <tr>
+            <th>Game ID</th>
+            <th>Game Name</th>
+            <th>Publisher</th>
+            <th>Platform</th>
+            <th>Year of Release</th>
+            <th>Update Info</button></th>
+            <th>Delete Game</button></th>
+        </tr>
+        <tr>
+            <td>gameID</td>
+            <td>gameName</td>
+            <td>publisher</td>
+            <td>platform</td>
+            <td>yearOfRelease</td>
+            <td><button onclick="updateGame()"></button></td>
+            <td><button onclick="deleteGame()"></button></td>
+        </tr>
+    </table>
+
+    <button onclick="gameMenu()" style="color: white"> Game Menu </button>
+
+    <script src="DisplayGames.js"></script>
+
+</body>
+
+</html>

@@ -7,5 +7,9 @@ function updateGame(){
 }
 
 function deleteGame(){
-    location.href = 'DeletionConfirmation.html';
+    if (confirm('Are you sure you want to delete this game?')) {
+        //delete game
+    } else {
+        //dont delete game
+    }
 }

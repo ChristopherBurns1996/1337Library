@@ -1,7 +1,7 @@
 function gameMenu(){
-    location.href = 'GameMenu.html';
+    location.href = "GameMenu.html";
 }
 
 function publisherMenu(){
-    location.href = 'PublisherMenu.html';
+    location.href = "PublisherMenu.html";
 }

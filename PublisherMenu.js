@@ -3,9 +3,9 @@ function addPublisher(){
 }
 
 function displayPublishers() {
-    location.href = 'DisplayPublishers.html';
+    location.href = "DisplayPublishers.html";
 }
 
 function mainMenu() {
-    location.href = 'HomePage.html';
+    location.href = "HomePage.html";
 }

@@ -1,3 +1,3 @@
 function gameMenu() {
-    location.href = 'GameMenu.html';
+    location.href = "GameMenu.html";
 }

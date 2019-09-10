@@ -1,3 +1,3 @@
 function publisherMenu() {
-    location.href = 'PublisherMenu.html';
+    location.href = "PublisherMenu.html";
 }

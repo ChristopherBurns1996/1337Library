@@ -1,11 +1,11 @@
 function addGame() {
-    location.href = 'AddGame.html';
+    location.href = "AddGame.html";
 }
 
 function displayGames() {
-    location.href = 'DisplayGames.html';
+    location.href = "DisplayGames.html";
 }
 
 function mainMenu() {
-    location.href = 'HomePage.html';
+    location.href = "HomePage.html";
 }

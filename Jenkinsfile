@@ -9,10 +9,6 @@
 		stage('---pushhtml---'){
                         steps{
                                 sh "sudo cp -rpf /var/lib/jenkins/workspace/1337Library/* /var/www/html"
-				sh "git pull https://github.com/ChristopherBurns1996/projectAPI.git master"
-				sh "sudo docker-compose down"
-	                        sh "sudo docker build -t='christopherburns1996:latest' ."
-	                        sh "sudo docker-compose up -d"
 
                         }
                 }

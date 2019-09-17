@@ -1,4 +1,4 @@
-pipeline{
+  pipeline{
         agent any
         stages{
 		stage('---clearprev---'){
@@ -8,7 +8,13 @@ pipeline{
                 }
 		stage('---pushhtml---'){
                         steps{
-                                sh "sudo cp -r /var/lib/jenkins/workspace/1337Library/* /var/www/html"
+                                sh "sudo cp -rpf /var/lib/jenkins/workspace/1337Library/* /var/www/html"
+				sh "cd ~/projectAPI"
+				sh "git pull origin master"
+				sh "sudo docker-compose down"
+	                        sh "sudo docker build -t='christopherburns1996:latest' ."
+	                        sh "sudo docker-compose up -d"
+
                         }
                 }
 	}

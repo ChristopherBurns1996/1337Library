@@ -14,7 +14,7 @@ function handleFormSubmit(form) {
 
     xhr.onload = () => {
         console.log('load success');
-        location.href = "GamesMenu.html";
+        location.href = "GameMenu.html";
     };
 
     xhr.open('POST', "http://34.89.59.112:9000/Games");

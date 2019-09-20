@@ -34,7 +34,7 @@ function newRow(data){
     //creates a column in the table for the game ID
     gameI = document.createElement("td");
     nr.append(gameI);
-    gameI.innerHTML = data.gameID;
+    gameI.innerHTML = data.gameid;
     //creates a column in the table for the game name
     gameN = document.createElement("td");
     nr.append(gameN);

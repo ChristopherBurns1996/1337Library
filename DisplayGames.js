@@ -21,9 +21,15 @@ function updateGame(id) {
     location.href = 'UpdateGame.html?gameid=' + id;
 }
 
-function deleteGame() {
+function deleteGame(id) {
     if (confirm('Are you sure you want to delete this game?')) {
-        //delete game
+        del.onload = () => {
+            console.log('load success');
+            location.href = 'DisplayGames.html';
+        };
+        
+        del.open('DELETE', "http://34.89.59.112:9000/Games/" + id);
+        del.send();
     } else {
         //dont delete game
     }
@@ -62,7 +68,7 @@ function newRow(data){
     gameDel = document.createElement("td");
     nr.append(gameDel);
     delB = document.createElement("button");
-    delB.onclick = function() { deleteGame() }
+    delB.onclick = function() { deleteGame(data.gameid) }
     gameDel.append(delB);
     //adds the new game info to the table
     document.getElementById("gameTable").append(nr);

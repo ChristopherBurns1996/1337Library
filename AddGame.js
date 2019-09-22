@@ -26,4 +26,3 @@ function handleFormSubmit(form) {
 function gameMenu() {
     location.href = "GameMenu.html";
 }
-

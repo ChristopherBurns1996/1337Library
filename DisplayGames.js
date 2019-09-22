@@ -1,4 +1,5 @@
 const xhr = new XMLHttpRequest();
+const del = new XMLHttpRequest();
 
 xhr.onload = () => {
     console.log('load success');
@@ -16,8 +17,8 @@ function gameMenu() {
     location.href = 'GameMenu.html';
 }
 
-function updateGame() {
-    location.href = 'UpdateGame.html';
+function updateGame(id) {
+    location.href = 'UpdateGame.html?gameid=' + id;
 }
 
 function deleteGame() {
@@ -55,7 +56,7 @@ function newRow(data){
     gameUpd = document.createElement("td");
     nr.append(gameUpd);
     upB = document.createElement("button");
-    upB.onclick = function() { updateGame() }
+    upB.onclick = function() { updateGame(data.gameid) }
     gameUpd.append(upB);
     //creates a column in the table for the delete game button
     gameDel = document.createElement("td");

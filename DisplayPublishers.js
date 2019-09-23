@@ -17,8 +17,8 @@ function publisherMenu() {
     location.href = 'PublisherMenu.html';
 }
 
-function updatePublisher(){
-    location.href = 'UpdatePublisher.html';
+function updatePublisher(id){
+    location.href = 'UpdatePublisher.html?publisherid=' + id;
 }
 
 function deletePublisher(){

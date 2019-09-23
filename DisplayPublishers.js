@@ -1,4 +1,5 @@
 const xhr = new XMLHttpRequest();
+const del = new XMLHttpRequest();
 
 xhr.onload = () => {
     console.log('load success');
@@ -12,7 +13,6 @@ xhr.onload = () => {
 xhr.open('GET', "http://34.89.59.112:9000/publishers");
 xhr.send();
 
-
 function publisherMenu() {
     location.href = 'PublisherMenu.html';
 }
@@ -21,9 +21,15 @@ function updatePublisher(id){
     location.href = 'UpdatePublisher.html?publisherid=' + id;
 }
 
-function deletePublisher(){
+function deletePublisher(id){
     if (confirm('Are you sure you want to delete this publisher')) {
-        //delete publisher
+        del.onload = () => {
+            console.log('load success');
+            location.href = 'DisplayPublishers.html';
+        };
+        
+        del.open('DELETE', "http://34.89.59.112:9000/publishers/" + id);
+        del.send();
     } else {
         //dont delete publisher
     }

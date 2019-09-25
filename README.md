@@ -152,20 +152,20 @@
 
 ## Technologies Used
 
-<p>Github - VCS</p>
-<p>Java, Springboot - API</p>
-<p>MySQL - Database</p>
-<p>HTML5, CSS, JavaScript - Front End</p>
-<p>Trello - Project Tracking</p>
-<p>Codacy - Code Review</p>
-<p>Jenkins - CI Server</p>
-<p>Maven - Testing Automation, API, Dependency Management</p>
-<p>Mockito, JUnit - Automated API Testing</p>
-<p>Selenium - Automated Front End Testing</p>
-<p>GCP - Live Environment</p>
-<p>Apache - Front End Deployment</p>
-<p>Postman - API Call Testing</p>
-<p>Draw.io - Diagram Design</p>
+* Github - VCS
+* Java, Springboot - API
+* MySQL - Database
+* HTML5, CSS, JavaScript - Front End
+* Trello - Project Tracking
+* Codacy - Code Review
+* Jenkins - CI Server
+* Maven - Testing Automation, API, Dependency Management
+* Mockito, JUnit - Automated API Testing
+* Selenium - Automated Front End Testing
+* GCP - Live Environment
+* Apache - Front End Deployment
+* Postman - API Call Testing
+* Draw.io - Diagram Design
 
 <a name="fedesign"></a>
 

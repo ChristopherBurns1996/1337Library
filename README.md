@@ -69,11 +69,6 @@
 
 <p>My solution for this project was to create a games library that would allow the user to keep track of the games they own. The application will contain 2 tables, one for games, and one for the publishers who make games. There will be a front end website which will allow the user to create records in the tables, read the data from the tables, update the data in the tables, and delete records from the tables.</p>
 
-<a name="architecture"></a>
-
-
-## Architecture
-
 <a name="or"></a>
 
 
@@ -86,6 +81,11 @@
 ### Selenium Testing Repository
 
 <p>Link</p>
+
+<a name="architecture"></a>
+
+
+## Architecture
 
 <a name="erd"></a>
 

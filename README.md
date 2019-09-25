@@ -92,6 +92,24 @@
 
 ## Testing
 
+<p>Testing my solution involved using Selenium in order to test the front end HTML and JavaScript files, Mockito and JUnit to test the API, and Codacy in order to check the overall quality of the code.</p>
+
+<p>Insert mockito code coverage here</p>
+
+<p></p>
+
+<p>Insert something to do with selenium here</p>
+
+<p></p>
+
+<p>Below are the links to Codacy dashboards for each of the repositories used in the project.</p>
+
+<p>codacy link 1</p>
+
+<p>codacy link 2</p>
+
+<p>codacy link 3</p>
+
 <a name="report"></a>
 
 

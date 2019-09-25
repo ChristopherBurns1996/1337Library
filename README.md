@@ -184,6 +184,7 @@
 * User login system
 * Seperate libraries for each individual user
 * Adding shortcuts to each game record to allow them to launch from 1337Library
+* Execution Logs for when running tests
 
 <a name="authors"></a>
 

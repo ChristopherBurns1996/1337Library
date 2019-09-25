@@ -181,9 +181,9 @@
 
 ## Potential Future Improvements
 
-*User login system
-*Seperate libraries for each individual user
-*Adding shortcuts to each game record to allow them to launch from 1337Library
+* User login system
+* Seperate libraries for each individual user
+* Adding shortcuts to each game record to allow them to launch from 1337Library
 
 <a name="authors"></a>
 

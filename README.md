@@ -111,13 +111,13 @@
 
 <p>Testing my solution involved using Selenium in order to test the front end HTML and JavaScript files, Mockito and JUnit to test the API, and Codacy in order to check the overall quality of the code.</p>
 
-## Mockito and JUnit
+### Mockito and JUnit
 
 <p>Insert mockito code coverage here</p>
 
 <p></p>
 
-## Selenium
+### Selenium
 
 <p>Insert something to do with selenium here</p>
 
@@ -181,6 +181,10 @@
 
 ## Potential Future Improvements
 
+*User login system
+*Seperate libraries for each individual user
+*Adding shortcuts to each game record to allow them to launch from 1337Library
+
 <a name="authors"></a>
 
 
@@ -192,3 +196,5 @@
 
 
 ## Acknowledgements
+
+<p>QAC Trainers for training me in the technologies necessary to complete this project</p>

@@ -126,6 +126,10 @@
 
 ## Deployment
 
+<p>that ci diagram</p>
+
+<p>Firstly Github was used as a VCS in order to keep track of the code I was creating. The backend was created using Java, Springboot, and the database created with MySQL. The front end web page was created using HTML5, JavaScript, and CSS. Trello was used to track the project, and codacy was used in order to review the code quality. Jenkins was used in order to automate the build process as much as possible, and ran automated testing which was created in a maven project using Selenium, Mockito, and JUnit. GCP was used in order to host Jenkins, as well as the backend and Apache which was used for the frontend.</p>
+
 <a name="techused"></a>
 
 
@@ -145,6 +149,8 @@
 
 
 ## Authors
+
+<p>Christopher Burns</p>
 
 <a name="acknowledgements"></a>
 

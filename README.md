@@ -8,6 +8,8 @@
 
 ## Index
 
+
+
 [Brief](#brief) 
 
 * [Solution](#solution) 
@@ -19,6 +21,8 @@
 * [Entity Relationship Diagram](#erd) 
 
 
+
+[Other Repositories](#or)
 
 [Testing](#testing)
 
@@ -69,6 +73,19 @@
 
 
 ## Architecture
+
+<a name="or"></a>
+
+
+## Other Repositories
+
+### API and Backend Testing Repository
+
+<p>Link</p>
+
+### Selenium Testing Repository
+
+<p>Link</p>
 
 <a name="erd"></a>
 
@@ -128,17 +145,36 @@
 
 <p>that ci diagram</p>
 
-<p>Firstly Github was used as a VCS in order to keep track of the code I was creating. The backend was created using Java, Springboot, and the database created with MySQL. The front end web page was created using HTML5, JavaScript, and CSS. Trello was used to track the project, and codacy was used in order to review the code quality. Jenkins was used in order to automate the build process as much as possible, and ran automated testing which was created in a maven project using Selenium, Mockito, and JUnit. GCP was used in order to host Jenkins, as well as the backend and Apache which was used for the frontend.</p>
+<p>Firstly Github was used as a VCS in order to keep track of the code I was creating. The backend was created using Java, Springboot, and the database created with MySQL. The front end web page was created using HTML5, JavaScript, and CSS. Trello was used to track the project, and codacy was used in order to review the code quality. Jenkins was used in order to automate the build process as much as possible, and ran automated testing which was created in a maven project using Selenium, Mockito, and JUnit. GCP was used in order to host Jenkins, as well as the backend and Apache which was used for the frontend. Postman was also used in order to test the API calls before they were implemented on the front end. Draw.io was used in order to create the project wireframes and ER diagrams.</p>
 
 <a name="techused"></a>
 
 
 ## Technologies Used
 
+<p>Github - VCS</p>
+<p>Java, Springboot - API</p>
+<p>MySQL - Database</p>
+<p>HTML5, CSS, JavaScript - Front End</p>
+<p>Trello - Project Tracking</p>
+<p>Codacy - Code Review</p>
+<p>Jenkins - CI Server</p>
+<p>Maven - Testing Automation, API, Dependency Management</p>
+<p>Mockito, JUnit - Automated API Testing</p>
+<p>Selenium - Automated Front End Testing</p>
+<p>GCP - Live Environment</p>
+<p>Apache - Front End Deployment</p>
+<p>Postman - API Call Testing</p>
+<p>Draw.io - Diagram Design</p>
+
 <a name="fedesign"></a>
 
 
 ## Front End Design
+
+### Wireframes
+
+### Final Design
 
 <a name="improvements"></a>
 

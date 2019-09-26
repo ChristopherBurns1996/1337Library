@@ -84,11 +84,13 @@
 
 ![picture](README%20Images/Mockito&JunitResults.png)
 
-<p>Backend code coverage for the API was 100%, with 9 total JUnit tests.</p>
+<p>Backend code coverage for the API was 100%, with 9 total JUnit tests which had a 100% pass rate.</p>
 
 ### Selenium
 
 ![picture](README%20Images/SeleniumResults.png)
+
+<p>There were 22 total Selenium tests, which took roughly 2 and a half minutes to complete with a 100% pass rate.</p>
 
 <a name="report"></a>
 
@@ -98,11 +100,11 @@
 
 <p>Below are the links to Codacy dashboards for each of the repositories used in the project.</p>
 
-<p>codacy link 1</p>
+[1337Library](https://app.codacy.com/manual/ChristopherBurns1996/1337Library/dashboard)
 
-<p>codacy link 2</p>
+[API](https://app.codacy.com/manual/ChristopherBurns1996/projectAPI/dashboard)
 
-<p>codacy link 3</p>
+[Selenium-Testing](https://app.codacy.com/manual/ChristopherBurns1996/projectSeleniumTests/dashboard)
 
 <a name="deployment"></a>
 

@@ -14,7 +14,7 @@ xhr.open('GET', "http://34.89.59.112:9000/Games");
 xhr.send();
 
 function gameMenu() {
-    location.href = 'GameMenu.html';
+    location.href = "GameMenu.html";
 }
 
 //sends the user to the update game page with the corrent id

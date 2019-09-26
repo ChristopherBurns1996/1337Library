@@ -28,5 +28,5 @@ function handleFormSubmit(form) {
 }
 
 function displayPublishers() {
-    location.href = 'DisplayPublishers.html';
+    location.href = "DisplayPublishers.html";
 }

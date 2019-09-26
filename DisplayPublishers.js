@@ -14,7 +14,7 @@ xhr.open('GET', "http://34.89.59.112:9000/publishers");
 xhr.send();
 
 function publisherMenu() {
-    location.href = 'PublisherMenu.html';
+    location.href = "PublisherMenu.html";
 }
 
 //sends the user to the update publisher page with the corrent id

@@ -28,5 +28,5 @@ function handleFormSubmit(form) {
 }
 
 function displayGames() {
-    location.href = 'DisplayGames.html';
+    location.href = "DisplayGames.html";
 }

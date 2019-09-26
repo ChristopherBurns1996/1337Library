@@ -1,6 +1,6 @@
 # 1337 Library - Games Library
 
-<p>Solo project submission for week 8</p>
+<p>Solo project submission for Week 8.</p>
 
 ## Index
 

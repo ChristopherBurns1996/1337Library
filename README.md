@@ -82,15 +82,13 @@
 
 ### Mockito and JUnit
 
-<p>Insert mockito code coverage here</p>
+![picture](README%20Images/Mockito&JUnitResults.png)
 
-<p></p>
+<p>Backend code coverage for the API was 100%, with 9 total JUnit tests.</p>
 
 ### Selenium
 
-<p>Insert something to do with selenium here</p>
-
-<p></p>
+![picture](README%20Images/SeleniumResults.png)
 
 <a name="report"></a>
 

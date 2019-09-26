@@ -8,11 +8,11 @@
 
 * [Solution](#solution) 
 
+[Other Repositories and Sites](#or)
+
 [Architecture](#architecture)
 
 * [Entity Relationship Diagram](#erd) 
-
-[Other Repositories and Sites](#or)
 
 [Testing](#testing)
 

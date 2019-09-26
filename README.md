@@ -163,6 +163,24 @@
 
 ### Final Design
 
+![picture](README%20Images/FrontEndScreenShots/MainMenu.png)
+
+![picture](README%20Images/FrontEndScreenShots/GamesMenu.png)
+
+![picture](README%20Images/FrontEndScreenShots/AddGame.png)
+
+![picture](README%20Images/FrontEndScreenShots/DisplayGames.png)
+
+![picture](README%20Images/FrontEndScreenShots/UpdateGame.png)
+
+![picture](README%20Images/FrontEndScreenShots/PublisherMenu.png)
+
+![picture](README%20Images/FrontEndScreenShots/AddPublisher.png)
+
+![picture](README%20Images/FrontEndScreenShots/DisplayPublishers.png)
+
+![picture](README%20Images/FrontEndScreenShots/UpdatePublisher.png)
+
 <a name="improvements"></a>
 
 ## Potential Future Improvements

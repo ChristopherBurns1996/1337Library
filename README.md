@@ -195,6 +195,7 @@
 * Seperate libraries for each individual user
 * Adding shortcuts to each game record to allow them to launch from 1337Library
 * Execution Logs for when running tests
+* Improve code quality based on Codacy recommendations
 
 <a name="authors"></a>
 

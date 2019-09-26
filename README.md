@@ -112,6 +112,8 @@
 
 ### Surefire Report
 
+<p>Below is a link to the surefire report generated for the API of the project.</p>
+
 [Surefire-Report-Page](http://34.89.59.112/surefire-report.html)
 
 <a name="deployment"></a>

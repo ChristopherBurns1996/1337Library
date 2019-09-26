@@ -17,6 +17,7 @@ function publisherMenu() {
     location.href = 'PublisherMenu.html';
 }
 
+//sends the user to the update publisher page with the corrent id
 function updatePublisher(id){
     location.href = 'UpdatePublisher.html?publisherid=' + id;
 }

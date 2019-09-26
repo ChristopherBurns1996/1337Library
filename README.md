@@ -110,6 +110,10 @@
 
 [Selenium-Testing](https://app.codacy.com/manual/ChristopherBurns1996/projectSeleniumTests/dashboard)
 
+### Surefire Report
+
+[Surefire-Report-Page](README%20Images/surefire-report.html)
+
 <a name="deployment"></a>
 
 ## Deployment

@@ -1,5 +1,5 @@
 function handleFormSubmit(form) {
-
+    //this loop goes through each element of the form and adds the information to an object
     const formDataObj = {};
 
     for (let element of form.elements) {
@@ -12,6 +12,7 @@ function handleFormSubmit(form) {
 
     const xhr = new XMLHttpRequest();
 
+    //this section of code sends an api call to the database with the information provided in the form
     xhr.onload = () => {
         console.log('load success');
         location.href = "GameMenu.html";

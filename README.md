@@ -82,7 +82,7 @@
 
 ### Mockito and JUnit
 
-![picture](README%20Images/Mockito&JUnitResults.png)
+![picture](README%20Images/Mockito&JunitResults.png)
 
 <p>Backend code coverage for the API was 100%, with 9 total JUnit tests.</p>
 

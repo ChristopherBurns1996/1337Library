@@ -64,14 +64,13 @@
 
 #### Intial ERD
 
-![InitialERD](https://github.com/ChristopherBurns1996/1337Library/blob/developer/README%20Images/initialERD.png)
 ![picture](README%20Images/initialERD.png)
 
 <p>The ERD shown here was the initial plan which contained 4 tables. One for games, one for publishers, one for individual libraries, and one for the users of the system. In order to meet a MVP within the time frame, the user and library tables were removed, and the game and publisher tables were perserved to maintain the core functionality of the system.</p>
 
 #### Final ERD
 
-<p>put in link to final er diagram</p>
+![picture](README%20Images/finalERD.png)
 
 <p>The ERD shown here is the final plan for the site. It features 2 tables, and contains a 1 to many relationship between the publisher and games table, as one publisher could have made many games.</p>
 

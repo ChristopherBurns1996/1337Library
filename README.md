@@ -12,7 +12,7 @@
 
 * [Entity Relationship Diagram](#erd) 
 
-[Other Repositories](#or)
+[Other Repositories and Sites](#or)
 
 [Testing](#testing)
 
@@ -44,7 +44,7 @@
 
 <a name="or"></a>
 
-## Other Repositories
+## Other Repositories / Useful Sites
 
 ### API and Backend Testing Repository
 
@@ -53,6 +53,10 @@
 ### Selenium Testing Repository
 
 [Selenium-Testing](https://github.com/ChristopherBurns1996/projectSeleniumTests)
+
+### Trello Board
+
+[Trello Board](https://trello.com/b/Cew5BvdK/solo-project-1337library)
 
 <a name="architecture"></a>
 

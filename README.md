@@ -48,11 +48,11 @@
 
 ### API and Backend Testing Repository
 
-<p>Link</p>
+[API](https://github.com/ChristopherBurns1996/projectAPI)
 
 ### Selenium Testing Repository
 
-<p>Link</p>
+[Selenium-Testing](https://github.com/ChristopherBurns1996/projectSeleniumTests)
 
 <a name="architecture"></a>
 

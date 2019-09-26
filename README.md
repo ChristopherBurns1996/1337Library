@@ -112,7 +112,7 @@
 
 ### Surefire Report
 
-[Surefire-Report-Page](README%20Images/surefire-report.html)
+[Surefire-Report-Page](http://34.89.59.112/surefire-report.html)
 
 <a name="deployment"></a>
 

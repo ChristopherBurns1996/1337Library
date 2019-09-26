@@ -139,6 +139,8 @@
 
 ### Wireframes
 
+![picture](README%20Images/Wireframes/Add%20Game%20Page.png)
+
 ### Final Design
 
 <a name="improvements"></a>

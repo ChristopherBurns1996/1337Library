@@ -17,6 +17,7 @@ function gameMenu() {
     location.href = 'GameMenu.html';
 }
 
+//sends the user to the update game page with the corrent id
 function updateGame(id) {
     location.href = 'UpdateGame.html?gameid=' + id;
 }

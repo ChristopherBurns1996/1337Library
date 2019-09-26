@@ -1,3 +1,4 @@
+//these functions send the user to different pages in the publisher section
 function addPublisher(){
     location.href = "AddPublisher.html";
 }

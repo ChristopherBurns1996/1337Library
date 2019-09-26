@@ -1,3 +1,4 @@
+//these functions send the user to different pages within the game menu
 function addGame() {
     location.href = 'AddGame.html';
 }

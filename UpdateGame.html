@@ -10,6 +10,7 @@
         Update Game Information
     </h1>
 
+    <!-- This form lets the user input new information about the game before passing it onto an API call -->
     <form onsubmit="return handleFormSubmit(this)">
         <div class="row">
             <div class="column" style="text-align: right">
@@ -63,6 +64,7 @@
         </div>
     </form>
 
+    <!-- This button sends the user back to the display games page if they decide they dont want to update a game -->
     <button onclick="displayGames()" style="color: white" id="dgButton"> Previous Page </button>
 
     <script src="UpdateGame.js"></script>

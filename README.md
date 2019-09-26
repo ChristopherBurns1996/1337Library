@@ -139,7 +139,23 @@
 
 ### Wireframes
 
+![picture](README%20Images/Wireframes/Main%20Menu.png)
+
+![picture](README%20Images/Wireframes/Game%20Menu.png)
+
 ![picture](README%20Images/Wireframes/Add%20Game%20Page.png)
+
+![picture](README%20Images/Wireframes/Display%20All%20Games.png)
+
+![picture](README%20Images/Wireframes/Update%20Game%20Page.png)
+
+![picture](README%20Images/Wireframes/Publisher%20Menu.png)
+
+![picture](README%20Images/Wireframes/Add%20Publisher%20Page.png)
+
+![picture](README%20Images/Wireframes/Display%20All%20Publishers.png)
+
+![picture](README%20Images/Wireframes/Update%20Publisher%20Page.png)
 
 ### Final Design
 

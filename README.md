@@ -1,26 +1,16 @@
 # 1337 Library - Games Library
 
-
-
 <p>Solo project submission for week 8</p>
 
-
-
 ## Index
-
-
 
 [Brief](#brief) 
 
 * [Solution](#solution) 
 
-
-
 [Architecture](#architecture)
 
 * [Entity Relationship Diagram](#erd) 
-
-
 
 [Other Repositories](#or)
 
@@ -28,49 +18,31 @@
 
 * [Report](#report) 
 
-
-
 [Deployment](#deployment)
 
 * [Technologies Used](#techused)
 
-
-
 [Front End Design](#fedesign)
-
-
 
 [Future Improvements](#improvements)
 
-
-
 [Authors](#authors)
-
-
 
 [Acknowledgements](#acknowledgements)
 
-
-
 <a name="brief"></a>
-
 
 ## Brief
 
-
-
 <p>Our brief was to create a piece of software that implemented CRUD functionality in 2 database tables using the technologies and techniques we had learned in our first 6-8 weeks at QAC.</p>
 
-
 <a name="solution"></a>
-
 
 ## Solution
 
 <p>My solution for this project was to create a games library that would allow the user to keep track of the games they own. The application will contain 2 tables, one for games, and one for the publishers who make games. There will be a front end website which will allow the user to create records in the tables, read the data from the tables, update the data in the tables, and delete records from the tables.</p>
 
 <a name="or"></a>
-
 
 ## Other Repositories
 
@@ -84,11 +56,9 @@
 
 <a name="architecture"></a>
 
-
 ## Architecture
 
 <a name="erd"></a>
-
 
 ### Entity Relationship Diagram
 
@@ -105,7 +75,6 @@
 <p>The ERD shown here is the final plan for the site. It features 2 tables, and contains a 1 to many relationship between the publisher and games table, as one publisher could have made many games.</p>
 
 <a name="testing"></a>
-
 
 ## Testing
 
@@ -125,7 +94,6 @@
 
 <a name="report"></a>
 
-
 ## Reports
 
 ### Codacy
@@ -140,7 +108,6 @@
 
 <a name="deployment"></a>
 
-
 ## Deployment
 
 <p>that ci diagram</p>
@@ -148,7 +115,6 @@
 <p>Firstly Github was used as a VCS in order to keep track of the code I was creating. The backend was created using Java, Springboot, and the database created with MySQL. The front end web page was created using HTML5, JavaScript, and CSS. Trello was used to track the project, and codacy was used in order to review the code quality. Jenkins was used in order to automate the build process as much as possible, and ran automated testing which was created in a maven project using Selenium, Mockito, and JUnit. GCP was used in order to host Jenkins, as well as the backend and Apache which was used for the frontend. Postman was also used in order to test the API calls before they were implemented on the front end. Draw.io was used in order to create the project wireframes and ER diagrams.</p>
 
 <a name="techused"></a>
-
 
 ## Technologies Used
 
@@ -169,7 +135,6 @@
 
 <a name="fedesign"></a>
 
-
 ## Front End Design
 
 ### Wireframes
@@ -177,7 +142,6 @@
 ### Final Design
 
 <a name="improvements"></a>
-
 
 ## Potential Future Improvements
 
@@ -188,13 +152,11 @@
 
 <a name="authors"></a>
 
-
 ## Authors
 
 <p>Christopher Burns</p>
 
 <a name="acknowledgements"></a>
-
 
 ## Acknowledgements
 

@@ -10,64 +10,41 @@
         Update Game Information
     </h1>
 
+    <!-- This form lets the user input new information about the game before passing it onto an API call -->
     <form onsubmit="return handleFormSubmit(this)">
         <div class="row">
-            <div class="column" style="text-align: right">
-                <h1>Game Name</h1>
-            </div>
-            <div class="column">
-                <h1>The games name</h1>
-            </div>
             <div class="column" style="text-align: right">
                 <h1>New Game Name</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="gameName" type="text">
             </div>
         </div>
 
         <div class="row">
-            <div class="column" style="text-align: right">
-                <h1>Publisher</h1>
-            </div>
-            <div class="column">
-                <h1>The publisher</h1>
-            </div>
             <div class="column" style="text-align: right">
                 <h1>New Publisher</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="publisher" type="text">
             </div>
         </div>
 
         <div class="row">
-            <div class="column" style="text-align: right">
-                <h1>Platform</h1>
-            </div>
-            <div class="column">
-                <h1>The platform</h1>
-            </div>
             <div class="column" style="text-align: right">
                 <h1>New Platform</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="platform" type="text">
             </div>
         </div>
 
         <div class="row">
-            <div class="column" style="text-align: right">
-                <h1>Year of Release</h1>
-            </div>
-            <div class="column">
-                <h1>The year of release</h1>
-            </div>
             <div class="column" style="text-align: right">
                 <h1>New Year of Release</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="yearOfRelease" type="text">
             </div>
         </div>
 
@@ -78,22 +55,17 @@
         </div>
 
         <div class="row">
-            <div class="column" style="text-align: right">
-                <h3> </h3>
-            </div>
-            <div class="column">
-                <h3> </h3>
-            </div>
             <div class="column" style="text-align: right">
                 <h3> Update Info </h3>
             </div>
             <div class="column">
-                <button type="submit"> Submit </button>
+                <button type="submit" id="ugSubmit"> Submit </button>
             </div>
         </div>
     </form>
 
-    <button onclick="displayGames()" style="color: white"> Previous Page </button>
+    <!-- This button sends the user back to the display games page if they decide they dont want to update a game -->
+    <button onclick="displayGames()" style="color: white" id="dgButton"> Previous Page </button>
 
     <script src="UpdateGame.js"></script>
 </body>

@@ -10,7 +10,8 @@
         Displaying All Games
     </h1>
 
-    <table style="width:100%" border="1">
+    <!-- This creates the table headers for the page -->
+    <table style="width:100%" border="1" id="gameTable">
         <tr>
             <th>Game ID</th>
             <th>Game Name</th>
@@ -20,18 +21,10 @@
             <th>Update Info</button></th>
             <th>Delete Game</button></th>
         </tr>
-        <tr>
-            <td>gameID</td>
-            <td>gameName</td>
-            <td>publisher</td>
-            <td>platform</td>
-            <td>yearOfRelease</td>
-            <td><button onclick="updateGame()"></button></td>
-            <td><button onclick="deleteGame()"></button></td>
-        </tr>
     </table>
 
-    <button onclick="gameMenu()" style="color: white"> Game Menu </button>
+    <!-- This button will send the user back to the game menu -->
+    <button onclick="gameMenu()" style="color: white" id="gmButton"> Game Menu </button>
 
     <script src="DisplayGames.js"></script>
 

@@ -10,13 +10,14 @@
         Add Publisher to Library
     </h1>
 
+    <!-- This form lets the user input information about the publisher before passing it onto an API call -->
     <form onsubmit="return handleFormSubmit(this)">
         <div class="row">
             <div class="column" style="text-align: right">
                 <h1>Publisher Name</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="publisherName" type="text">
             </div>
         </div>
 
@@ -25,7 +26,7 @@
                 <h1>Current CEO</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="currentCEO" type="text">
             </div>
         </div>
 
@@ -34,7 +35,7 @@
                 <h1>Year Established</h1>
             </div>
             <div class="column">
-                <input>
+                <input id="yearEstablished" type="text">
             </div>
         </div>
 
@@ -43,12 +44,13 @@
                 <h3> Add publisher to library </h3>
             </div>
             <div class="column">
-                <button type="submit"> Submit </button>
+                <button type="submit" id="apSubmit"> Submit </button>
             </div>
         </div>
     </form>
 
-    <button onclick="publisherMenu()" style="color: white"> Publisher Menu </button>
+    <!-- This button sends the user back to publisher menu if they decide they dont want to add a publisher -->
+    <button onclick="publisherMenu()" style="color: white" id="pmButton"> Publisher Menu </button>
 
     <script src="AddPublisher.js"></script>
 

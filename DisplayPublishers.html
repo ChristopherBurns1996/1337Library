@@ -10,26 +10,20 @@
         Displaying All Publishers
     </h1>
 
-    <table style="width:100%" border="1">
+    <!-- This creates the table headers for the publishers -->
+    <table style="width:100%" border="1" id="publisherTable">
         <tr>
             <th>Publisher ID</th>
             <th>Publisher Name</th>
             <th>Current CEO</th>
-            <th>Year Establisher</th>
+            <th>Year Established</th>
             <th>Update Info</button></th>
             <th>Delete Publisher</button></th>
         </tr>
-        <tr>
-            <td>publisherID</td>
-            <td>publisherName</td>
-            <td>currentCEO</td>
-            <td>year established</td>
-            <td><button onclick="updatePublisher()"></button></td>
-            <td><button onclick="deletePublisher()"></button></td>
-        </tr>
     </table>
 
-    <button onclick="publisherMenu()" style="color: white"> Publisher Menu </button>
+    <!-- This button will send the user back to the publisher menu -->
+    <button onclick="publisherMenu()" style="color: white" id="pmButton"> Publisher Menu </button>
 
     <script src="DisplayPublishers.js"></script>
 

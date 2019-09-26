@@ -64,7 +64,7 @@
 
 #### Intial ERD
 
-<p>put in link to intial er diagram</p>
+![InitialERD](https://github.com/ChristopherBurns1996/1337Library/blob/developer/README%20Images/initialERD.png)
 
 <p>The ERD shown here was the initial plan which contained 4 tables. One for games, one for publishers, one for individual libraries, and one for the users of the system. In order to meet a MVP within the time frame, the user and library tables were removed, and the game and publisher tables were perserved to maintain the core functionality of the system.</p>
 

@@ -118,6 +118,12 @@
 
 <p>Firstly Github was used as a VCS in order to keep track of the code I was creating. The backend was created using Java, Springboot, and the database created with MySQL. The front end web page was created using HTML5, JavaScript, and CSS. Trello was used to track the project, and codacy was used in order to review the code quality. Jenkins was used in order to automate the build process as much as possible, and ran automated testing which was created in a maven project using Selenium, Mockito, and JUnit. GCP was used in order to host Jenkins, as well as the backend and Apache which was used for the frontend. Postman was also used in order to test the API calls before they were implemented on the front end. Draw.io was used in order to create the project wireframes and ER diagrams.</p>
 
+### Jenkins
+
+![picture](README%20Images/Jenkins.png)
+
+<p>Jenkins was set up to build with instructions located in a Jenkinsfile.</p>
+
 <a name="techused"></a>
 
 ## Technologies Used
